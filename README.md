@@ -10,4 +10,4 @@
 
 The only expectation is that `middleman build` will generate your site into `./build`. That's where Rack::TryStatic will look.
 
-If you want to serve a pretty 404 page, create a file named `404.html` at the root of your site, and it will be served automatically any time Rack::TryStatic can't find a file.
+You can customize the 404 page that's served if TryStatic can't find a file by editing `source/404.html.erb`.
