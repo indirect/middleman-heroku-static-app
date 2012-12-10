@@ -3,7 +3,7 @@
 
 ## Usage
 
-    $ git clone http://github.com/indirect/middleman-heroku-app.git mysite
+    $ git clone http://github.com/indirect/middleman-heroku-static-app.git mysite
     $ cd mysite
     $ heroku create --stack cedar --buildpack http://github.com/indirect/heroku-buildpack-middleman.git
     $ git push heroku master
