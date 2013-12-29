@@ -4,4 +4,4 @@ ruby '2.0.0'
 
 gem 'middleman', '~> 3.2'
 gem 'puma',      '~> 2.7'
-gem 'rake-pipeline', '~> 0.7.0'
+gem 'rake',      '~> 10.1'
