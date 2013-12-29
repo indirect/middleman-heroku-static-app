@@ -7,6 +7,7 @@
     $ bundle install && bundle exec middleman init .
     $ git add . && git commit -m "brand new site"
     $ heroku create && git push heroku master
+    $ heroku open
 
 The only expectation is that `middleman build` will generate your site into `./build`. That's where Rack::TryStatic will look.
 
