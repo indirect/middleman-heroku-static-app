@@ -10,3 +10,6 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
 end
+
+# silence i18n warning
+::I18n.config.enforce_available_locales = false
